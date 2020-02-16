@@ -8,12 +8,12 @@ let variety = 10;
 function setup() {
     createCanvas(winWidth, winHeight);
     background(90, 63, 102);
-    stroke('rgba(255, 53, 102, 0.6)');
-    strokeWeight(5);
     textSize(winHeight/2.4);
     textAlign(CENTER, CENTER);
     fill('rgba(195, 53, 102, 0.6)');
     text(`a:${a} b:${b}`, winWidth / 2, winHeight / 2);
+    stroke('rgba(255, 53, 102, 0.6)');
+    strokeWeight(5);
     angleMode(DEGREES);
 }
 
@@ -50,7 +50,9 @@ function mouseMoved() {
         b = Math.ceil(mouseY / sectiondim.y);
         clear();
         background(90, 63, 102);
+	strokeWeight(0);
         text(`a:${a}  b:${b}`, winWidth / 2, winHeight / 2);
+	strokeWeight(5);
         t = 0;
     }
 }
