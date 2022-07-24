@@ -1,8 +1,3 @@
-script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
-
 # Lissajous Curve Generator
 This program uses p5.js, a javascript library for graphics, in order to parametrically generate lissajou curves.
 
