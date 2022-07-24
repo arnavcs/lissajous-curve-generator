@@ -3,8 +3,8 @@ This program uses p5.js, a javascript library for graphics, in order to parametr
 
 ## What is a Lissajous Curve?
 Lissajous curves, also knows as Bowditch curves, are parametrically defined according to the following parametric equation:
-$$x = A \sin(at + \delta)$$
-$$y = B \sin(bt)$$
+$$x(t) = A \sin(at + \delta)$$
+$$y(t) = B \sin(bt)$$
 
 ## How to use the Website?
 The values of $A$ and $B$ are chosen automatically based on the size of the window. If the window is resized, refresh the page to change the values of $A$ and $B$.
