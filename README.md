@@ -1,5 +1,5 @@
 # Lissajous Curve Generator
-This program uses p5.js, a javascript library for graphics, in order to parametrically generate lissajou curves.
+This program uses p5.js, a javascript library for graphics, in order to parametrically generate lissajous curves. You can try it out at [arnavcs.github.io/lissajous-curve-generator](https://arnavcs.github.io/lissajous-curve-generator/).
 
 ## What is a Lissajous Curve?
 Lissajous curves, also knows as Bowditch curves, are parametrically defined according to the the parametric equation $x = A \sin(at + \delta), y = B \sin(bt)$.
